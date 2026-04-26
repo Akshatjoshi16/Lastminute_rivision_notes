@@ -1,0 +1,51 @@
+What is Network?
+  : A network is a set of devices that are connected with a physical media link. In
+  a network, two or more nodes are connected by a physical link or two or more networks
+  are connected by one or more nodes. A network is a collection of devices connected to
+  each other to allow the sharing of data.
+Topologies:
+  Star -- Star topology is a network topology in which all the nodes are connected to a single device known as a central device
+  Ring -- Ring topology is a network topology in which nodes are exactly connected to two or more nodes and thus, forming a single continuous path for the transmission.
+  Bus -- Bus topology is a network topology in which all the nodes are connected to a single cable known as a central cable or bus.
+  Mesh -- Mesh topology is a network topology in which all the nodes are individually connected to other nodes.
+Bandwidth:
+  Bandwidth is defined as the potential of the data that is to be transferred in a specific period of time. It is the data carrying capacity of the network or transmission medium.
+VPN:
+  a service that creates a secure, encrypted tunnel between your device (computer or smartphone) and the internet
+IPv4:
+  An IP address represents an Internet Protocol address. A unique address that identifies the device over the network.
+  IP addresses are displayed as a set of four digits. The total IP address range ranges from 0.0.0.0 to 255.255.255.255. 
+  Example - 192.158.02.252
+Http and Https:
+  HTTP is the HyperText Transfer Protocol which defines the set of rules and standards on
+  how the information can be transmitted on the World Wide Web (WWW). It helps the web browsers 
+  and web servers for communication. It is a ‘stateless protocol’ where each command is independent 
+  with respect to the previous command. HTTP is an application layer protocol built upon the TCP. It uses port 80 by default.
+
+  HTTPS is the HyperText Transfer Protocol Secure or Secure HTTP. It is an advanced and secured version of HTTP. On top of HTTP,
+  SSL/TLS protocol is used to provide security. It enables secure transactions by encrypting the communication
+  and also helps identify network servers securely. It uses port 443 by default.
+
+DHCP:
+  DHCP is the Dynamic Host Configuration Protocol. It is an application layer protocol used to auto-configure
+  devices on IP networks enabling them to use the TCP and UDP-based protocols. The DHCP servers auto-assign the
+  IPs and other network configurations to the devices individually which enables them to communicate over the IP network.
+MAC:
+  MAC Addresses are unique 48-bits hardware number of a computer, which is embedded into network card (known as Network Interface Card)
+  during the time of manufacturing. MAC is a type of physical address which is used to 
+  communicate or transfer the data from one computer to another computer.
+Firewall:
+  The firewall is a network security system that is used to monitor the incoming and outgoing traffic and blocks the same based
+  on the firewall security policies. It acts as a wall between the internet (public network) and the 
+  networking devices (a private network). It is either a hardware device, software program, or a combination of both.
+  It adds a layer of security to the network.
+TCP 3-way Handshake:
+  TCP 3-way handshake is a connection establishment process where the client sends SYN, the server responds with SYN-ACK,
+  and the client sends ACK. After these three steps, a reliable connection is established,
+  which is used in protocols like HTTP, FTP, and SMTP to ensure secure and ordered data transfer.
+What Happens when you hit a url:
+  When a URL is entered, the browser parses it and performs DNS lookup to get the IP address.
+  Then it establishes a TCP connection (and TLS for HTTPS), sends an HTTP request to the server,
+  receives a response, and finally renders the HTML, CSS, and JavaScript to display the webpage.
+
+  
