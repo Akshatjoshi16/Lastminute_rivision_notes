@@ -1,0 +1,29 @@
+1. What is Stateless?
+    “A stateless system is a system where the server does not remember previous client requests. 
+    Every request is treated as a completely new request.HTTP is naturally stateless because each HTTP request is independent.
+    So if a client sends two requests, the server does not automatically know they came from the same user unless some mechanism like session or token is used.
+    Stateless systems are highly scalable because the server does not need to store client-specific data in memory.”
+
+2. What is Statefull?
+    “A stateful system is a system where the server maintains information about the client between requests.
+
+For example, in session-based authentication, the server stores user session data after login and remembers the user for future requests.
+
+Stateful systems are easier for managing user interactions but become harder to scale in distributed environments because session data must be shared across servers.”
+
+3. What is REST?
+    rest=representational state transfer
+    R-- Representational
+    you don't send raw data.
+    you send representations like:
+    -json
+    -XMl
+    S-- State
+    the server does not remember you.
+    each request contains all the information needed.
+    this makes rest stateless.
+    T-- Transfer
+    Data is transferred using HTTP methods:
+    get,post,put,delete.
+
+4.
